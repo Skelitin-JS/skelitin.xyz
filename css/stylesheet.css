@@ -1,12 +1,11 @@
-body {
-    font-family: Optima, sans-serif	;
-}
-
 a.button {
     -webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
 
-    text-decoration: none;
-    color: initial;
+    text-decoration: aqua;
+    color: white;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
 }
