@@ -8,9 +8,8 @@ a.button {
 }
 body{
     font-family: 'Courier New', Courier, monospace;
-    background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+   
+    background-size: fill;
 }
 li{
     font-family: 'Times New Roman', Times, serif;
