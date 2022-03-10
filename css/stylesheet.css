@@ -9,3 +9,7 @@ a.button {
 body{
     font-family: 'Courier New', Courier, monospace;
 }
+li{
+    font-family: 'Times New Roman', Times, serif;
+    color: cornflowerblue;
+}
