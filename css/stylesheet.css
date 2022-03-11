@@ -6,18 +6,20 @@ a.button {
     text-decoration: aqua;
     color: white;
 }
-body{
-    font-family: 'Courier New', Courier, monospace;
-   
-    background-size: fill;
+body {
+    font-family: "Courier New", Courier, monospace;
+    background-image: url("https://i.pinimg.com/originals/77/79/dc/7779dcc09ebc984da5b200c28c986b00.png");
+    background-size: cover;
 }
-li{
-    font-family: 'Times New Roman', Times, serif;
+li {
+    font-family: "Times New Roman", Times, serif;
     color: cornflowerblue;
 }
-a{
+a {
     font: 100;
     color: aqua;
     text-align: center;
-    
+}
+p {
+    text-align: center;
 }
