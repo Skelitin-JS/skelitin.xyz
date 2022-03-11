@@ -2,26 +2,25 @@ a.button {
     -webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
-
-    text-decoration: aqua;
+    text-decoration: white;
     color: white;
 }
 body {
+    margin: 0%;
     font-family: "Courier New", Courier, monospace;
-    background-image: url("https://i.pinimg.com/originals/77/79/dc/7779dcc09ebc984da5b200c28c986b00.png");
-    background-size: cover;
-}
-li {
-    font-family: "Times New Roman", Times, serif;
-    color: cornflowerblue;
+    color: white;
 }
 a {
     font: 100;
-    color: aqua;
+    color: white;
     text-align: center;
 }
 p {
     text-align: center;
 }
-
-
+nav {
+    background-color: rgba(0, 0, 0, 0.322);
+}
+html {
+    background: radial-gradient(ellipse at top, #190f3d 0%, #080514 100%);width: 100%;height: 100%;
+}
