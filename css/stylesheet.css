@@ -65,9 +65,8 @@ header{
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color:darkorchid;}
-
   body{
-    background-image: url('https://wallpaperaccess.com/full/2641047.gif');
+    background-image: url('https://wallpaperaccess.com/full/2825710.gif');
     background-size: cover;
     
     
@@ -84,5 +83,8 @@ head{
   text-align: center;
 }
 header{
+  text-align: center;
+}
+html{
   text-align: center;
 }
