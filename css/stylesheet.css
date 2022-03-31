@@ -98,3 +98,8 @@ html{
   display: inline-block;
   font-size: 10px;
 }
+.box > span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
