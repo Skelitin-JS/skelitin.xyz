@@ -102,3 +102,9 @@ html{
   position: fixed;
   bottom: 0;
   } 
+  button{
+    background-color: blue
+    color crimson;
+    padding: 15px 32px;
+    font-size: 10px;
+  }
