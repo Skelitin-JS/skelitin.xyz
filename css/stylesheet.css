@@ -1,3 +1,4 @@
+@import url('http://fonts.cdnfonts.com/css/minecraft-4');
 a.button {
     -webkit-appearance: button;
     -moz-appearance: button;
@@ -140,4 +141,9 @@ h2 {
             #3CE7D7, #000FFF);
         -webkit-background-clip: text;
     }
+}
+
+
+html{
+  font-family: 'Minecraft', sans-serif;
 }
