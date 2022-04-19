@@ -1,4 +1,7 @@
 @import url('http://fonts.cdnfonts.com/css/minecraft-4');
+html{
+  font-family: import url('http://fonts.cdnfonts.com/css/minecraft-4');;
+}
 a.button {
     -webkit-appearance: button;
     -moz-appearance: button;
