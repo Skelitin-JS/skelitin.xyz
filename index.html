@@ -1,92 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>eagler</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Eaglercraft is real Minecraft 1.5.2 that you can play in any regular web browser. That includes school chromebooks, it works on all chromebooks. You can join real Minecraft 1.5.2 servers with it through a custom proxy based on Bungeecord." />
+<meta name="keywords" content="minecraft, applet, chromebook, lax1dude, games, eaglercraft, eagler" />
+<meta name="author" content="LAX1DUDE" />
+<meta property="og:title" content="Eaglercraft" />
+<meta property="og:locale" content="en-US" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://media.discordapp.net/attachments/378764518081429506/932053915061587978/thumbnail2.png" />
+<meta property="og:description" content="Eaglercraft is real Minecraft 1.5.2 that you can play in any regular web browser. That includes school chromebooks, it works on all chromebooks. You can join real Minecraft 1.5.2 servers with it through a custom proxy based on Bungeecord." />
+<!-- Change this: <meta property="og:url" content="https://g.eags.us/eaglercraft/" /> -->
+<script type="text/javascript" src="classes.js"></script>
+<script type="text/javascript">
+if(document.location.href.startsWith("file:")) {
+alert("You're not supposed to 'open' this file in your browser. Please upload this folder to your HTTP(s) server and access it via the internet. This is not a bug, please read the documentation");
+}else {
+window.addEventListener("load", function(){
+window.minecraftOpts = [
+"game_frame","assets.epk",
+"CgAACQAHc2VydmVycwoAAAABCAACaXAAIHdzKHMpOi8vIChhZGRyZXNzIGhlcmUpOihwb3J0KSAvCAAEbmFtZQAIdGVtcGxhdGUBAAtoaWRlQWRkcmVzcwEIAApmb3JjZWRNT1REABl0aGlzIGlzIG5vdCBhIHJlYWwgc2VydmVyAAA="
+];
+(function(){
+var q = window.location.search;
+if(typeof q === 'string' && q.startsWith("?")) {
+	q = new URLSearchParams(q);
+	var s = q.get("server");
+	if(s) window.minecraftOpts.push(s);
+}
+})();
+main();
+});}
+</script>
 </head>
-<style>
-  body{
-    background: navajowhite;
-    background-size: cover;
-    font-family: 'Trebuchet MS', sans-serif; 
-  }
-  .container{
-    display: inline-block;
-    justify-content: center;
-    width: 100%;
-  height: 50%;
-  }
-  .typed-out{
-    overflow: hidden;
-    border-right: .15em solid orange;
-    white-space: nowrap;
-    animation: 
-    typing 1s steps(20, end) forwards;
-    font-size: 1.6rem;
-    width: 0;
-    justify-content: center;
-  }
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
-  @keyframes blink {
-  from { border-color: transparent }
-  to { border-color: orange; }
-}
-.typed-out{
-    overflow: hidden;
-    border-right: .15em solid orange;
-    white-space: nowrap;
-    font-size: 1.6rem;
-    width: 0;
-    animation: 
-      typing 1s steps(20, end) forwards,
-      blink .8s infinite;
-      justify-content: center;
-}
-div{
-  text-align: center;
-  float: center;
-}
-h1{
-  text-align: center;
-}
-
-</style>
-<body>
-<h1>Welcome To Skelitin.xyz</h1>
-<div class="container">
-<div class="typed-out">Skelitin.xyz is a personal site for me.</div>
-<div class="typed-out"> I enjoy Minecraft, Terraria, Borderlands, The Forest, and Bioshock.</div>
-<div class="typed-out"> <a href="https://g.eags.us/eaglercraft/?server=wss://eagler.skelitin.xyz/server" alt="browser-minecraft"></a></div>
-<div class="bg-music">
-  <style>
-    .wrapper{
-      background-color: aqua;
-      background-size: cover;
-      min-height: 100vh;
-    }
-  </style>
-  <div class="wrapper"></div>
-  <audio src="music/your-love-is-what-i-need-soundroll-main-version-03-37-12292.mp3" loop=""
-  <button class="btn">
-    <i class="fa fa-play-circle-o"></i>
-    <i class="fa fa-pause-circle-o"></i>
-  </button>
-</div>
-</div>
+<body style="margin:0px;width:100vw;height:100vh;" id="game_frame">
 </body>
-<title> Home Page | Skelitin.xyz</title>
-<link rel="icon" type="image/x-icon" href="https://i.pinimg.com/564x/26/ed/19/26ed19ba570d6760f47353c9d8a80cfe.jpg style="width:50%">
-<div class="row">
-  <div class="row">
-    <img src="https://logos-world.net/wp-content/uploads/2020/04/Minecraft-Logo.png" alt="Minecraft | Logo" style="width:50%">
-  </div>
-  
-  <div class="row">
-    <img src="https://play-lh.googleusercontent.com/BoAvMI_6JGNRBp_3gFaVuLuqW_4J-rjtbR_giKFoJRvZmDiPtDlnLMur9cT7sTTfeos" alt="Terraria" style="width:50%">
-  </div>
-  <div class="row">
-    <img src="https://upload.wikimedia.org/wikipedia/en/0/01/Borderlandscover.jpg" alt="Borderlands | Borderlands 1" style="width:50%">
-  </div>
-  <div class="row">
-    <img src="https://image.api.playstation.com/vulcan/ap/rnd/202009/3001/elqgwr6d4iZCqcUgiL5Jx1HB.png" alt="The Forest | Playstation" style="width:50%">
-  </div>
-</div>
 </html>
