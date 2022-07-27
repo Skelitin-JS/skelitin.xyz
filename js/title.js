@@ -1,2 +1,2 @@
 var Axe = Math.random()
-document.title = Axe
+document.title = 'Axe'
