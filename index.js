@@ -1,1 +1,1 @@
-window.location.replace("https://discord.com/oauth2/authorize?client_id=1061855960953532416&permissions=8&scope=bot");
+window.location.replace("https://rvlt.gg/bmCwdKGP");
